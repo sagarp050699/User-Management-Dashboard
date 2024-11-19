@@ -1,0 +1,78 @@
+/* Form Overlay */
+.form-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  /* Form Container */
+  .user-form {
+    background-color: #fff;
+    padding: 20px;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+  
+  .user-form h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #4a4a4a;
+  }
+  
+  .user-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  .user-form input:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  /* Form Buttons */
+  .user-form .form-actions {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .user-form button {
+    flex: 1;
+    padding: 10px;
+    font-size: 1rem;
+    margin: 0 5px;
+    border-radius: 4px;
+  }
+  
+  .user-form button[type="submit"] {
+    background-color: #28a745;
+    color: white;
+    border: none;
+  }
+  
+  .user-form button[type="submit"]:hover {
+    background-color: #218838;
+  }
+  
+  .user-form button[type="button"] {
+    background-color: #6c757d;
+    color: white;
+  }
+  
+  .user-form button[type="button"]:hover {
+    background-color: #5a6268;
+  }
+  

@@ -1,0 +1,25 @@
+.user-list {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .user-list th,
+  .user-list td {
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  .user-list th {
+    background-color: #f4f4f4;
+  }
+  
+  .edit-btn {
+    color: #007bff;
+    cursor: pointer;
+  }
+  
+  .delete-btn {
+    color: red;
+    cursor: pointer;
+  }
+  
